@@ -2429,6 +2429,9 @@
 					"base_import_paths": {
 						"type": "boolean"
 					},
+					"local_domain": {
+						"type": "string"
+					},
 					"disable": {
 						"oneOf": [
 							{
