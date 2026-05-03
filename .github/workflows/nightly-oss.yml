@@ -120,7 +120,7 @@ jobs:
           description: |
             goreleaser nightly build finished with status {{STATUS}}.
 
-            https://github.com/goreleaser/goreleaser-pro/releases/${{ needs.goreleaser.outputs.version }}
+            https://github.com/goreleaser/goreleaser/releases/v${{ needs.goreleaser.outputs.version }}
           discord-webhook: ${{ secrets.NIGHTLY_DISCORD_WEBHOOK }}
           username: GoReleaser
           avatar-url: https://avatars.githubusercontent.com/u/24697112?v=4
