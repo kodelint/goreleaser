@@ -86,7 +86,7 @@ jobs:
         with:
           distribution: goreleaser-pro
           version: "nightly"
-          args: release --clean --nightly -f .goreleaser-pro.yaml --timeout 60m
+          args: release --clean --nightly --timeout 60m
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}

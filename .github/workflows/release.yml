@@ -170,7 +170,7 @@ jobs:
         with:
           distribution: goreleaser-pro
           version: "~> 2"
-          args: release --clean --timeout 60m -f .goreleaser-pro.yaml
+          args: release --clean --timeout 60m
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
