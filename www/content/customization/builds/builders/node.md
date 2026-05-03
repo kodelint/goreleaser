@@ -3,6 +3,8 @@ title: Node.js
 weight: 25
 ---
 
+{{< g_version "v2.16-unreleased" >}}
+
 {{< g_experimental "https://github.com/goreleaser/goreleaser/discussions/5367#discussioncomment-16793177" >}}
 
 You can build Node.js [Single Executable Application][sea] (SEA) binaries
