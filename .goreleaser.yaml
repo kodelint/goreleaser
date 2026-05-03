@@ -409,7 +409,7 @@ release:
     {{ end }}
 
   footer: |
-    **Full Changelog**: https://github.com/goreleaser/goreleaser/compare/{{ .PreviousTag }}...{{ if .IsNightly }}nightly{{ else }}{{ .Tag }}{{ end }}
+    **Full Changelog**: https://github.com/goreleaser/goreleaser/compare/{{ .PreviousTag }}...{{ .Tag }}
 
     {{ if not .IsNightly }}
     ## Helping out
