@@ -373,9 +373,11 @@ release:
   name_template: "{{ .Tag }}"
   prerelease: auto
   header: |
+    {{ if not .IsNightly }}
     ## Announcement
 
     Read the official announcement: [Announcing GoReleaser v{{.Major}}.{{.Minor}}](https://goreleaser.com/blog/goreleaser-v{{.Major}}.{{.Minor}}/).
+    {{ end }}
 
   footer: |
     **Full Changelog**: https://github.com/goreleaser/goreleaser/compare/{{ .PreviousTag }}...{{ if .IsNightly }}nightly{{ else }}{{ .Tag }}{{ end }}
