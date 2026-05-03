@@ -6,7 +6,7 @@ pro: true
 nightly:
   publish_release: true
   tag_name: "{{ incminor .Tag }}-{{ .ShortCommit }}-nightly"
-  version_template: "{{ incminor .Tag }}-{{ .ShortCommit }}-nightly"
+  version_template: "{{ incminor .Version }}-{{ .ShortCommit }}-nightly"
 
 npms:
   - name: "@goreleaser/goreleaser"

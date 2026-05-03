@@ -776,6 +776,7 @@
 							"zig",
 							"bun",
 							"deno",
+							"node",
 							"uv",
 							"poetry",
 							"prebuilt"
