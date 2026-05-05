@@ -45,6 +45,7 @@ var validLicenses = []string{
 	"bsd3",
 	"bsd3Clear",
 	"bsd3Lbnl",
+	"bsd3Modification",
 	"bsd3ClauseTso",
 	"bsdAxisNoDisclaimerUnmodified",
 	"bsdOriginal",
