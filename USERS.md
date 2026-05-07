@@ -10,6 +10,7 @@ Here's a running list of some organizations using GoReleaser[^1]:
 1. [Apache](https://www.apache.org)
 1. [Apex](https://github.com/apex)
 1. [Aqua Security](https://www.aquasec.com)
+1. [Ardan Labs](https://www.ardanlabs.com/)
 1. [Argo CD](https://github.com/argoproj)
 1. [Authzed](https://authzed.com)
 1. [Ayedo](https://www.ayedo.de/)
