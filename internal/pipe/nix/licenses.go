@@ -95,6 +95,7 @@ var validLicenses = []string{
 	"curl",
 	"dec3Clause",
 	"doc",
+	"docBookDtd",
 	"drl10",
 	"dtoa",
 	"eapl",
