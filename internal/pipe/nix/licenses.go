@@ -158,6 +158,7 @@ var validLicenses = []string{
 	"ipa",
 	"ipl10",
 	"isc",
+	"json",
 	"databricks",
 	"databricks-dbx",
 	"databricks-license",
